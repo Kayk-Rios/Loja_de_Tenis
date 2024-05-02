@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial , sans-serif;
+
+}/*cabecalho*/
+
+header{
+    
+    background-color: rgb(75, 186, 149);
+    color: white ;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #0f642f;
+}
+/*main*/
+.container{
+    background-color: #EEE;/*mudei cor paara mostrar divisoes e header/main/footer*/
+    min-height: 60vh;/* quanto % vai consumir da tela so 60% da tela e meu rodaper apareça*/
+    padding: 50px ;
+
+
+
+}
+.produtosCon{
+    max-width: 1200px;
+    margin:0 auto  ;
+ 
+}
+.card{
+ width: 31%;
+display: inline-block;/*coloquei um do lado do outro as divs*/
+margin: 1% 1%; /*distancia de margem externa netre elementos*/
+padding: 15px;
+}
+.card-produto{/*defini o tamanho onde vai ficar a img*/
+    height: 300px;
+    width: 343px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover ;
+  
+}
+#img-1{/* fazz relaçao com as img*/
+background-image: url('../img/tenis1.jpg')
+}
+#img-2{
+    background-image: url('../img/tenis2.jpg')     
+}
+#img-3{
+    background-image: url('../img/tenis3.jpg') 
+}
+#img-4{
+    background-image: url('../img/tenis4.jpg')       
+   
+}
+#img-5{
+    background-image: url('../img/tenis5.jpg')    
+        
+}
+#img-6{
+    background-image: url('../img/tenis6.jpg')   
+}
+h3{
+    margin-bottom: 10px;
+    color: #0f642f ;
+    font-size: 20px;
+    padding-left: 4px;
+    border-left:  5px solid #0f642f;
+}
+.card p{
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    width: 100% px;
+    color: white;
+    cursor: pointer;
+    background-color: #0f642f;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+.btn:hover{
+    background-color: #124425;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color:rgb(83, 147, 83);
+    color:rgb(241, 234, 234, 0.5);
+    padding: 80px;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+}
